@@ -1,5 +1,7 @@
 # NavBot Simulation
 
+[Website](https://mondaywmd.github.io/monday-robotics-universe/) · [Project & experiments](https://mondaywmd.github.io/monday-robotics-universe/navbot-depth-obstacles.html) · [About Monday](https://mondaywmd.github.io/monday-robotics-universe/about.html)
+
 Scene-specific Isaac Sim experiments for a TurtleBot3 Burger: motion, LiDAR, low-obstacle depth sensing, navigation, asset collisions, and deliberate pushing.
 
 This is the simulation experiment record for [Monday's Robotics Universe](https://mondaywmd.github.io/monday-robotics-universe/). [SimForge Agent](https://github.com/mondaywmd/simforge-agent) covers the upstream Blender/asset pipeline; [NavBot PPO Navigation](https://github.com/mondaywmd/navbot-ppo-navigation) covers the earlier ROS/Gazebo learning experiments.
