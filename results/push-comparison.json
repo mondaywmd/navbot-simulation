@@ -1,0 +1,110 @@
+{
+  "shoe_01": {
+    "asset": "shoe_01",
+    "mass_kg": 0.188,
+    "mass_basis": "user reported; chair lower bound, book approximate",
+    "object_contact_friction_assumed": [
+      0.5,
+      0.4
+    ],
+    "wheel_torque_limit_assumed_nm": 0.15,
+    "command_speed_mps": 0.06,
+    "duration_s": 12,
+    "object_start": [
+      -0.37499967217445374,
+      -2.5999999046325684,
+      -5.916692316532135e-05
+    ],
+    "object_end": [
+      -0.36008530855178833,
+      -2.2617316246032715,
+      -5.196593701839447e-05
+    ],
+    "object_displacement_m": 0.338596910238266,
+    "robot_displacement_m": 0.5366281867027283,
+    "max_contact_force_component_n": 1.4881994724273682,
+    "contact_observed": true,
+    "scope": "Rigid-body exploratory model; no foam deformation; no real-world friction or torque calibration"
+  },
+  "book_01": {
+    "asset": "book_01",
+    "mass_kg": 1.0,
+    "mass_basis": "user reported; chair lower bound, book approximate",
+    "object_contact_friction_assumed": [
+      0.5,
+      0.4
+    ],
+    "wheel_torque_limit_assumed_nm": 0.15,
+    "command_speed_mps": 0.06,
+    "duration_s": 12,
+    "object_start": [
+      -0.28000006079673767,
+      -2.5999999046325684,
+      -4.6566128730773926e-09
+    ],
+    "object_end": [
+      -0.2799428105354309,
+      -2.599944591522217,
+      8.847564458847046e-08
+    ],
+    "object_displacement_m": 7.960610673762858e-05,
+    "robot_displacement_m": 0.24212242662906647,
+    "max_contact_force_component_n": 4.258639335632324,
+    "contact_observed": true,
+    "scope": "Rigid-body exploratory model; no foam deformation; no real-world friction or torque calibration"
+  },
+  "dumbbell_01": {
+    "asset": "dumbbell_01",
+    "mass_kg": 2.0,
+    "mass_basis": "user reported; chair lower bound, book approximate",
+    "object_contact_friction_assumed": [
+      0.5,
+      0.4
+    ],
+    "wheel_torque_limit_assumed_nm": 0.15,
+    "command_speed_mps": 0.06,
+    "duration_s": 12,
+    "object_start": [
+      -0.28063535690307617,
+      -2.600078582763672,
+      0.0007765889167785645
+    ],
+    "object_end": [
+      -0.2806347906589508,
+      -2.600079298019409,
+      0.0007766745984554291
+    ],
+    "object_displacement_m": 9.122626920543553e-07,
+    "robot_displacement_m": 0.26199719309806824,
+    "max_contact_force_component_n": 4.844816207885742,
+    "contact_observed": true,
+    "scope": "Rigid-body exploratory model; no foam deformation; no real-world friction or torque calibration"
+  },
+  "chair_01": {
+    "asset": "chair_01",
+    "mass_kg": 5.0,
+    "mass_basis": "user reported; chair lower bound, book approximate",
+    "object_contact_friction_assumed": [
+      0.5,
+      0.4
+    ],
+    "wheel_torque_limit_assumed_nm": 0.15,
+    "command_speed_mps": 0.06,
+    "duration_s": 12,
+    "object_start": [
+      -0.45999982953071594,
+      -2.6000020503997803,
+      -0.0002785921096801758
+    ],
+    "object_end": [
+      -0.46000081300735474,
+      -2.6000020503997803,
+      -0.00027689337730407715
+    ],
+    "object_displacement_m": 9.834766387939453e-07,
+    "robot_displacement_m": 0.1251249462366104,
+    "max_contact_force_component_n": 3.900391101837158,
+    "contact_observed": true,
+    "scope": "Rigid-body exploratory model; no foam deformation; no real-world friction or torque calibration"
+  }
+}

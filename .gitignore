@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+*.usd
+*.usda
+*.usdc
+*.usdz
+*.blend
+*.glb
+*.mp4
+*.npz
+frames/

@@ -1,0 +1,50 @@
+{
+  "empty": {
+    "plane_normal": [
+      -5.282340431702895e-07,
+      2.6922419679978823e-05,
+      0.9999999996374522
+    ],
+    "plane_offset": -0.0014246911817164705,
+    "target_roi_obstacle_points": 0,
+    "detected": false,
+    "expected": false,
+    "passed": true
+  },
+  "shoe_01": {
+    "plane_normal": [
+      -1.2246637196091504e-06,
+      -9.522645774147782e-07,
+      0.9999999999987967
+    ],
+    "plane_offset": -0.0015031425858105143,
+    "target_roi_obstacle_points": 9715,
+    "detected": true,
+    "expected": true,
+    "passed": true
+  },
+  "book_01": {
+    "plane_normal": [
+      2.6850122530127068e-06,
+      1.3753887349600492e-06,
+      0.9999999999954494
+    ],
+    "plane_offset": -0.00149590151979913,
+    "target_roi_obstacle_points": 3415,
+    "detected": true,
+    "expected": true,
+    "passed": true
+  },
+  "dumbbell_01": {
+    "plane_normal": [
+      -1.991265375339011e-06,
+      1.2826622709455665e-06,
+      0.9999999999971948
+    ],
+    "plane_offset": -0.0014975319254967407,
+    "target_roi_obstacle_points": 4458,
+    "detected": true,
+    "expected": true,
+    "passed": true
+  }
+}
