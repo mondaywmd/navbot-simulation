@@ -1,0 +1,1 @@
+需要既有 navbot_scanned_chair.usda、机器人、走廊、椅子 USD 和 RTX LiDAR。下载不包含模型。先保存场景，在项目场景中通过 Script Editor 运行。本脚本切换到已保存测试场景，保留其视觉设置，覆盖同名报告与录像帧。最终暂停。视频帧约5Hz采样，编码须按 report.json 的 simulation_time_s 时间戳。不能仅按25fps直接播放采集帧。

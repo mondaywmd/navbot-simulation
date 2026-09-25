@@ -1,0 +1,80 @@
+[
+  {
+    "page": "isaac-lidar-navigation.html",
+    "document": "docs/2026-09-25/01-lidar-navigation.md",
+    "title": "先看见障碍， 再决定往哪里走。",
+    "images": [
+      "media/navbot-navigation/robot_after_render_fix.png",
+      "media/navbot-navigation/navbot_lidar_validation.png",
+      "media/navbot-navigation/navbot_lidar_stop.png",
+      "media/navbot-navigation/navbot_fixed_suite.png"
+    ],
+    "videos": [
+      "https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/navbot-navigation/navbot_fixed_suite.mp4"
+    ],
+    "downloads": [
+      "examples/published-bundles/navbot-lidar-navigation-scripts",
+      "results/navbot_fixed_suite_results.json",
+      "results/lidar_stop_report.json"
+    ],
+    "source_sha256": "ef66ae3a06969e3e1af81b7727a74646ddd46485058499aad0eaf7b7c7a6143e"
+  },
+  {
+    "page": "scanned-assets-physics.html",
+    "document": "docs/2026-09-25/02-scanned-assets-physics.md",
+    "title": "把家里的物品， 变成能碰撞的数字资产。",
+    "images": [
+      "media/scanned-assets/gallery.jpg",
+      "media/scanned-assets/book-underside.jpg",
+      "media/scanned-assets/dumbbell.jpg",
+      "media/scanned-assets/shoes.jpg",
+      "media/scanned-assets/chair.jpg"
+    ],
+    "videos": [
+      "https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/scanned-assets/ball-shower-200.mp4"
+    ],
+    "downloads": [
+      "examples/published-bundles/ball-shower-scripts"
+    ],
+    "source_sha256": "77143f529e8f0097517286d50598276283a20ba15f1d83ff288387c82dc72249"
+  },
+  {
+    "page": "navbot-chair-navigation.html",
+    "document": "docs/2026-09-25/03-chair-navigation.md",
+    "title": "让真实的椅子， 进入机器人走廊测试。",
+    "images": [
+      "media/chair-navigation/scene.jpg",
+      "media/chair-navigation/robot.jpg",
+      "media/chair-navigation/finish.jpg"
+    ],
+    "videos": [
+      "https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/chair-navigation/chair-navigation.mp4"
+    ],
+    "downloads": [
+      "results/report.json",
+      "examples/published-bundles/chair-test-script"
+    ],
+    "source_sha256": "f1a297cf87b831b67fdbf088f82dfd84ef26f5b119030a2f13190c126d095c11"
+  },
+  {
+    "page": "navbot-depth-obstacles.html",
+    "document": "docs/2026-09-25/04-depth-obstacles.md",
+    "title": "看见地上的鞋， 再决定怎样通过。",
+    "images": [
+      "media/depth-navigation/depth-book.jpg",
+      "media/depth-navigation/scene.jpg",
+      "media/depth-navigation/finish.jpg"
+    ],
+    "videos": [
+      "https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/depth-navigation/navigation.mp4",
+      "https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/depth-navigation/push.mp4"
+    ],
+    "downloads": [
+      "examples/published-bundles/scripts",
+      "results/navigation-report.json",
+      "results/detection-report.json",
+      "results/push-report.json"
+    ],
+    "source_sha256": "c1fb6b4d26913ef663ee2ea43c457472fe53d62e0a566e5b0167a6e8de4e1e20"
+  }
+]

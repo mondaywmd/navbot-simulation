@@ -1,0 +1,62 @@
+[
+  {
+    "case": "clear",
+    "passed": true,
+    "reason": "goal_reached",
+    "duration_s": 27.89999999999961,
+    "goal_error_m": 0.11942949334259415,
+    "max_contact_force_n": 0.0,
+    "braking_drift_m": 0.00046192082702602833,
+    "monitored_collider_count": 47
+  },
+  {
+    "case": "center",
+    "passed": true,
+    "reason": "goal_reached",
+    "duration_s": 28.899999999999554,
+    "goal_error_m": 0.1127785309835398,
+    "max_contact_force_n": 0.0,
+    "braking_drift_m": 0.0005499487922326469,
+    "monitored_collider_count": 48
+  },
+  {
+    "case": "left",
+    "passed": true,
+    "reason": "goal_reached",
+    "duration_s": 28.29999999999959,
+    "goal_error_m": 0.11584987529015892,
+    "max_contact_force_n": 0.0,
+    "braking_drift_m": 0.0004926012733234068,
+    "monitored_collider_count": 48
+  },
+  {
+    "case": "right",
+    "passed": true,
+    "reason": "goal_reached",
+    "duration_s": 28.0999999999996,
+    "goal_error_m": 0.11260324370793975,
+    "max_contact_force_n": 0.0,
+    "braking_drift_m": 0.0004970694142944437,
+    "monitored_collider_count": 48
+  },
+  {
+    "case": "staggered",
+    "passed": true,
+    "reason": "goal_reached",
+    "duration_s": 28.699999999999566,
+    "goal_error_m": 0.11043783036243583,
+    "max_contact_force_n": 0.0,
+    "braking_drift_m": 0.0006449187568517129,
+    "monitored_collider_count": 49
+  },
+  {
+    "case": "blocked",
+    "passed": true,
+    "reason": "blocked_no_progress",
+    "duration_s": 13.300000000000315,
+    "goal_error_m": 1.6127904456619382,
+    "max_contact_force_n": 0.0,
+    "braking_drift_m": 0.0007744844103654545,
+    "monitored_collider_count": 48
+  }
+]

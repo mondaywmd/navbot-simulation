@@ -6,6 +6,56 @@ Scene-specific Isaac Sim experiments for a TurtleBot3 Burger: motion, LiDAR, low
 
 This is the simulation experiment record for [Monday's Robotics Universe](https://mondaywmd.github.io/monday-robotics-universe/). [SimForge Agent](https://github.com/mondaywmd/simforge-agent) covers the upstream Blender/asset pipeline; [NavBot PPO Navigation](https://github.com/mondaywmd/navbot-ppo-navigation) covers the earlier ROS/Gazebo learning experiments.
 
+## 2026-09-25 · 先看实验
+
+下面的动图是原录像的 **4 秒节选，按原时间播放**。点击预览或“完整视频”查看完整 MP4；图文记录包含方法、失败原因、参数和结果限制。
+
+![四组扫描重建资产：书、哑铃、鞋与椅子](media/scanned-assets/gallery.jpg)
+
+从真实物品扫描、Blender 清理／重建、USD 资产组织，到 Isaac Sim 的感知、导航与碰撞实验。
+
+### 深度感知与分散避障
+
+[![深度感知与分散避障 · 点击观看完整视频](media/previews/depth.gif)](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/depth-navigation/navigation.mp4)
+
+69.5 秒到达目标，采样未检测到接触；一组固定布局。
+
+[▶ 完整视频](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/depth-navigation/navigation.mp4) · [图文、操作与结果](docs/2026-09-25/04-depth-obstacles.md)
+
+### 轻鞋与重物推撞
+
+[![轻鞋与重物推撞 · 点击观看完整视频](media/previews/push.gif)](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/depth-navigation/push.mp4)
+
+单只 188 g 鞋被推动约 34 cm；其他三件物体在本次参数下基本不动。
+
+[▶ 完整视频](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/depth-navigation/push.mp4) · [图文、操作与结果](docs/2026-09-25/04-depth-obstacles.md)
+
+### 扫描资产与 200 球实验
+
+[![扫描资产与 200 球实验 · 点击观看完整视频](media/previews/balls.gif)](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/scanned-assets/ball-shower-200.mp4)
+
+书、鞋、哑铃、椅子经过 Blender 整理后进入 Isaac Sim；修正鞋口碰撞，让球能落入鞋内。
+
+[▶ 完整视频](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/scanned-assets/ball-shower-200.mp4) · [图文、操作与结果](docs/2026-09-25/02-scanned-assets-physics.md)
+
+### 真实椅子通行
+
+[![真实椅子通行 · 点击观看完整视频](media/previews/chair.gif)](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/chair-navigation/chair-navigation.mp4)
+
+28.3 秒通过这一布局，包含椅腿间通行空间；附灯光与材质调整。
+
+[▶ 完整视频](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/chair-navigation/chair-navigation.mp4) · [图文、操作与结果](docs/2026-09-25/03-chair-navigation.md)
+
+### LiDAR 安装与六组固定测试
+
+[![LiDAR 安装与六组固定测试 · 点击观看完整视频](media/previews/lidar.gif)](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/navbot-navigation/navbot_fixed_suite.mp4)
+
+五种布局到达目标，完全堵路的一组按预期停车。六组不是六个轮子，机器人是两轮差速底盘。
+
+[▶ 完整视频](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/navbot-navigation/navbot_fixed_suite.mp4) · [图文、操作与结果](docs/2026-09-25/01-lidar-navigation.md)
+
+[查看四篇实验的完整目录与资料对照](docs/2026-09-25/README.md)
+
 ## Recorded results — September 24–25, 2026
 
 | Experiment | Evidence and scope |
