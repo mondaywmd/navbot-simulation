@@ -2,7 +2,7 @@ DEVLOG · 2026.09.26 · REPEATABLE NAVIGATION
 
 # 换一种摆法， 还能通过吗？
 
-昨天只通过一组固定布局。今天固定感知与控制参数，运行十组可复现测试，保留成功与失败。
+从最初的 3/8 失败轨迹出发，作为实验观察者，我判断地垫和安全距离可能改变选路；逐项对照验证后，八组通行全部到达目标。详见下方“实验观察者的路线判断”。
 
 01 / TEST DESIGN
 
@@ -84,3 +84,36 @@ DEVLOG · 2026.09.26 · REPEATABLE NAVIGATION
 ## 下一步，解释失败。
 
 [上一篇：深度感知与推撞](https://mondaywmd.github.io/monday-robotics-universe/navbot-depth-obstacles.html)
+
+## 实验观察者的路线判断：从异常轨迹到对照验证
+
+最初八组预留通道只有 3 组到达。作为实验观察者，我没有只看通过率，而是逐段比较机器人走过的路线。第二组刚起步就掉头；第七组与成功的第三组同样从走廊左侧绕行，却在椅子附近转进旁边房间。我据此分别检查地垫和通行距离。
+
+![第三组成功与第七组失败的轨迹对照](../media/random-navigation/case03-vs-case07.png)
+
+### 第二组：地垫判断
+
+我发现右侧地垫位于第二区域的绕行线路旁。凸起地垫模型最高约 2.1 cm，深度感知把高于估计地面 1.2 cm 的点记作障碍。使用同一种子 `2026092602`、相同四件物品布局、目标和控制参数，仅在测试副本中关闭凸起地垫：原先 18.3 s 无进展停车，移除后 65.9 s 到达目标，未检测到碰撞。这是支持地垫触发该组失败的对照证据。地板贴图中的浅色图案未消除。
+
+[▶ 观看第二组移除地垫后的录像](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/random-navigation/observer-followup/case02-no-bathmat.mp4) · [对照数据](../results/random-navigation-20260926-followup/case02-comparison.json)
+
+### 第七组：安全距离判断
+
+第七组保留地垫，原样重跑，仍在 58.1 s 无进展停车，最终进入左侧房间。保存的感知障碍点和规划路线表明，规划器主动选择向左走，并非驱动器跑偏。机器人模型的水平包围半径约 10.5 cm；原脚本要求中心距障碍至少 17.5 cm，约等于车身外再留 7 cm。第七组约 29.7 s 的地图上，仅限走廊的可行路线最大中心净空约 15.2 cm，因此被原阈值排除。
+
+![第七组的障碍点、规划路线与实际轨迹](../media/random-navigation/case07-planned-route.png)
+
+仅把最小中心距离改为 14 cm，保留地垫、物品布局及其他参数后，第七组留在走廊，66.9 s 到达目标，未检测到碰撞。14 cm 约等于水平车身包围圆外留 3.5 cm，是这个仿真场景验证过的工作值。
+
+[▶ 观看第七组 14 cm 的对照录像](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/random-navigation/observer-followup/case07-clearance14cm.mp4) · [对照数据](../results/random-navigation-20260926-followup/case07-comparison.json)
+
+### 保存后的十组回归
+
+我最后在后续场景中关闭凸起地垫，并保存 14 cm 的通行距离；用原十个种子完整回归。八组预留通道 **8/8 到达**（原为 3/8）；两组封路对照 **2/2 安全停止**。封路停车依赖“持续没有进展”保护，不能据此宣称机器人理解了死路。
+
+![调整后的十组轨迹](../media/random-navigation/trajectories-14cm.png)
+
+[新版十组报告](../results/random-navigation-20260926-followup/summary.json) · [新版可执行脚本](../scripts/navbot_random_suite_14cm.py) · [网站图文日志](https://mondaywmd.github.io/monday-robotics-universe/navbot-random-navigation.html#observer-followup)
+
+侧房实际上无法通往客厅目标。当前地图把未知区域视为可走，尚未加入房间之间正确的连接关系。上述回归验证了这十组布局的改善，下一步仍需补上静态布局地图。
+

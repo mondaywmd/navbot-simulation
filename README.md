@@ -16,6 +16,8 @@ This is the simulation experiment record for [Monday's Robotics Universe](https:
 
 动图为第二组的 5 秒原速节选。通行失败与堵路停车分开评价，详细条件见文档。
 
+[更新：实验观察者分析地垫与安全距离，通行从 3/8 提升到 8/8](docs/2026-09-26-random-navigation.md#实验观察者的路线判断从异常轨迹到对照验证) · [调整后十组轨迹](media/random-navigation/trajectories-14cm.png)
+
 [▶ 十组完整录像](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/random-navigation/suite.mp4) · [完整图文记录](docs/2026-09-26-random-navigation.md) · [逐组报告与轨迹](results/random-navigation-20260926) · [测试脚本](scripts/navbot_random_suite_20260926.py)
 
 ## 2026-09-25 · 先看实验
