@@ -6,6 +6,18 @@ Scene-specific Isaac Sim experiments for a TurtleBot3 Burger: motion, LiDAR, low
 
 This is the simulation experiment record for [Monday's Robotics Universe](https://mondaywmd.github.io/monday-robotics-universe/). [SimForge Agent](https://github.com/mondaywmd/simforge-agent) covers the upstream Blender/asset pipeline; [NavBot PPO Navigation](https://github.com/mondaywmd/navbot-ppo-navigation) covers the earlier ROS/Gazebo learning experiments.
 
+## 2026-09-26 · 十组复现测试：也公开失败
+
+**预留通道 3/8 通过；堵路对照 2/2 符合停车标准。** 固定昨日参数，仅变化物品顺序、侧向摆放和小角度朝向。当前结果暴露左右通道差异，不是稳定避障的证明。
+
+![十组实测轨迹，包含失败](media/random-navigation/trajectories.png)
+
+[![失败组转向起点后方，点击看完整测试](media/random-navigation/failed-route.gif)](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/random-navigation/suite.mp4)
+
+动图为第二组的 5 秒原速节选。通行失败与堵路停车分开评价，详细条件见文档。
+
+[▶ 十组完整录像](https://mondaywmd.github.io/monday-robotics-universe/assets/omniverse/random-navigation/suite.mp4) · [完整图文记录](docs/2026-09-26-random-navigation.md) · [逐组报告与轨迹](results/random-navigation-20260926) · [测试脚本](scripts/navbot_random_suite_20260926.py)
+
 ## 2026-09-25 · 先看实验
 
 下面的动图是原录像的 **4 秒节选，按原时间播放**。点击预览或“完整视频”查看完整 MP4；图文记录包含方法、失败原因、参数和结果限制。

@@ -1,0 +1,522 @@
+[
+  {
+    "case": "01_passage",
+    "seed": 2026092601,
+    "expected_outcome": "goal_reached",
+    "passed": true,
+    "reason": "goal_reached",
+    "goal": [
+      -0.28,
+      0.85
+    ],
+    "obstacles": [
+      {
+        "asset": "chair_01",
+        "x": -0.064988296196358,
+        "y": -2.1956606280794464,
+        "yaw_deg": -6.687764687212317
+      },
+      {
+        "asset": "dumbbell_01",
+        "x": -0.05721305842344716,
+        "y": -1.4055717598938886,
+        "yaw_deg": 7.295018829720547
+      },
+      {
+        "asset": "book_01",
+        "x": -0.05560785358333539,
+        "y": -0.7222629079444832,
+        "yaw_deg": 4.724603310398985
+      },
+      {
+        "asset": "shoe_01",
+        "x": -0.03016691224774999,
+        "y": -0.014164869589227393,
+        "yaw_deg": 4.677713218819994
+      }
+    ],
+    "final": [
+      -0.27718815207481384,
+      0.731469452381134,
+      0.010011174716055393
+    ],
+    "duration_s": 67.0999999999974,
+    "braking_drift_m": 0.0006062454009621573,
+    "max_contact_force_n": 0.0,
+    "contact_body_count": 6,
+    "localization": "simulator ground truth",
+    "depth_ground_threshold_m": 0.012,
+    "depth_memory_seconds": 3,
+    "planner": "A-star on accumulated sensor points, 2.5 cm grid, 17.5 cm footprint inflation"
+  },
+  {
+    "case": "02_passage",
+    "seed": 2026092602,
+    "expected_outcome": "goal_reached",
+    "passed": false,
+    "reason": "blocked_no_progress",
+    "goal": [
+      -0.28,
+      0.85
+    ],
+    "obstacles": [
+      {
+        "asset": "book_01",
+        "x": -0.5395949778106578,
+        "y": -2.1938093068244306,
+        "yaw_deg": 7.7314302117693465
+      },
+      {
+        "asset": "shoe_01",
+        "x": -0.5017412566812613,
+        "y": -1.498465154561433,
+        "yaw_deg": -8.886601942730035
+      },
+      {
+        "asset": "chair_01",
+        "x": -0.5065603665087787,
+        "y": -0.7330449314772088,
+        "yaw_deg": -4.958183739324802
+      },
+      {
+        "asset": "dumbbell_01",
+        "x": -0.499027469811107,
+        "y": -0.04756757896188522,
+        "yaw_deg": -1.4469121643378546
+      }
+    ],
+    "final": [
+      0.07939774543046951,
+      -3.526123523712158,
+      0.010013398714363575
+    ],
+    "duration_s": 18.300000000000157,
+    "braking_drift_m": 0.0006012553556696387,
+    "max_contact_force_n": 0.0,
+    "contact_body_count": 6,
+    "localization": "simulator ground truth",
+    "depth_ground_threshold_m": 0.012,
+    "depth_memory_seconds": 3,
+    "planner": "A-star on accumulated sensor points, 2.5 cm grid, 17.5 cm footprint inflation"
+  },
+  {
+    "case": "03_passage",
+    "seed": 2026092603,
+    "expected_outcome": "goal_reached",
+    "passed": true,
+    "reason": "goal_reached",
+    "goal": [
+      -0.28,
+      0.85
+    ],
+    "obstacles": [
+      {
+        "asset": "dumbbell_01",
+        "x": -0.06696528487637998,
+        "y": -2.229869893832997,
+        "yaw_deg": -0.9997211892149522
+      },
+      {
+        "asset": "chair_01",
+        "x": -0.03616837009240924,
+        "y": -1.472704001674626,
+        "yaw_deg": 7.385830955285236
+      },
+      {
+        "asset": "book_01",
+        "x": -0.0479254950398357,
+        "y": -0.7221805935480485,
+        "yaw_deg": -1.6288234087916003
+      },
+      {
+        "asset": "shoe_01",
+        "x": -0.06188484170790086,
+        "y": -0.03297593657655978,
+        "yaw_deg": -6.179515383673213
+      }
+    ],
+    "final": [
+      -0.27893319725990295,
+      0.7362830638885498,
+      0.01001142431050539
+    ],
+    "duration_s": 66.09999999999745,
+    "braking_drift_m": 0.0006136307025149118,
+    "max_contact_force_n": 0.0,
+    "contact_body_count": 6,
+    "localization": "simulator ground truth",
+    "depth_ground_threshold_m": 0.012,
+    "depth_memory_seconds": 3,
+    "planner": "A-star on accumulated sensor points, 2.5 cm grid, 17.5 cm footprint inflation"
+  },
+  {
+    "case": "04_passage",
+    "seed": 2026092604,
+    "expected_outcome": "goal_reached",
+    "passed": false,
+    "reason": "blocked_no_progress",
+    "goal": [
+      -0.28,
+      0.85
+    ],
+    "obstacles": [
+      {
+        "asset": "chair_01",
+        "x": -0.5189414697370439,
+        "y": -2.208560572805516,
+        "yaw_deg": -9.8169632499577
+      },
+      {
+        "asset": "book_01",
+        "x": -0.5373302373145933,
+        "y": -1.4885572446050206,
+        "yaw_deg": -0.2698363933420129
+      },
+      {
+        "asset": "dumbbell_01",
+        "x": -0.4932157191739174,
+        "y": -0.6989747713475518,
+        "yaw_deg": 8.841395747288828
+      },
+      {
+        "asset": "shoe_01",
+        "x": -0.4970376058658685,
+        "y": -0.03402374568971191,
+        "yaw_deg": 1.6896835089773017
+      }
+    ],
+    "final": [
+      0.10214228183031082,
+      -3.5138750076293945,
+      0.01001343596726656
+    ],
+    "duration_s": 18.300000000000157,
+    "braking_drift_m": 0.0005912170984733015,
+    "max_contact_force_n": 0.0,
+    "contact_body_count": 6,
+    "localization": "simulator ground truth",
+    "depth_ground_threshold_m": 0.012,
+    "depth_memory_seconds": 3,
+    "planner": "A-star on accumulated sensor points, 2.5 cm grid, 17.5 cm footprint inflation"
+  },
+  {
+    "case": "05_passage",
+    "seed": 2026092605,
+    "expected_outcome": "goal_reached",
+    "passed": true,
+    "reason": "goal_reached",
+    "goal": [
+      -0.28,
+      0.85
+    ],
+    "obstacles": [
+      {
+        "asset": "chair_01",
+        "x": -0.07217467569585706,
+        "y": -2.223502084828048,
+        "yaw_deg": 5.224627694967909
+      },
+      {
+        "asset": "shoe_01",
+        "x": -0.0671504079155663,
+        "y": -1.4320563122431587,
+        "yaw_deg": -9.644705561523303
+      },
+      {
+        "asset": "book_01",
+        "x": -0.06245755363955546,
+        "y": -0.703120693762316,
+        "yaw_deg": -7.82585551340129
+      },
+      {
+        "asset": "dumbbell_01",
+        "x": -0.063056091204366,
+        "y": 0.013937713567887769,
+        "yaw_deg": -2.2852374086074274
+      }
+    ],
+    "final": [
+      -0.27604222297668457,
+      0.7388018369674683,
+      0.01001088134944439
+    ],
+    "duration_s": 67.89999999999735,
+    "braking_drift_m": 0.0005737164702232291,
+    "max_contact_force_n": 0.0,
+    "contact_body_count": 6,
+    "localization": "simulator ground truth",
+    "depth_ground_threshold_m": 0.012,
+    "depth_memory_seconds": 3,
+    "planner": "A-star on accumulated sensor points, 2.5 cm grid, 17.5 cm footprint inflation"
+  },
+  {
+    "case": "06_passage",
+    "seed": 2026092606,
+    "expected_outcome": "goal_reached",
+    "passed": false,
+    "reason": "blocked_no_progress",
+    "goal": [
+      -0.28,
+      0.85
+    ],
+    "obstacles": [
+      {
+        "asset": "chair_01",
+        "x": -0.5315955178847344,
+        "y": -2.1797423904787356,
+        "yaw_deg": 2.5464883559773845
+      },
+      {
+        "asset": "book_01",
+        "x": -0.4993389531562215,
+        "y": -1.4431277237730218,
+        "yaw_deg": -5.615437506750725
+      },
+      {
+        "asset": "shoe_01",
+        "x": -0.5306265765057819,
+        "y": -0.6775552093106132,
+        "yaw_deg": 0.3121701051813588
+      },
+      {
+        "asset": "dumbbell_01",
+        "x": -0.501959509658031,
+        "y": -0.043252360419701735,
+        "yaw_deg": 9.254010802662982
+      }
+    ],
+    "final": [
+      0.08055204898118973,
+      -3.5237271785736084,
+      0.010013235732913017
+    ],
+    "duration_s": 18.300000000000157,
+    "braking_drift_m": 0.000586011067127122,
+    "max_contact_force_n": 0.0,
+    "contact_body_count": 6,
+    "localization": "simulator ground truth",
+    "depth_ground_threshold_m": 0.012,
+    "depth_memory_seconds": 3,
+    "planner": "A-star on accumulated sensor points, 2.5 cm grid, 17.5 cm footprint inflation"
+  },
+  {
+    "case": "07_passage",
+    "seed": 2026092607,
+    "expected_outcome": "goal_reached",
+    "passed": false,
+    "reason": "blocked_no_progress",
+    "goal": [
+      -0.28,
+      0.85
+    ],
+    "obstacles": [
+      {
+        "asset": "dumbbell_01",
+        "x": -0.07362576067776701,
+        "y": -2.1970269488874465,
+        "yaw_deg": -0.8499803685889873
+      },
+      {
+        "asset": "book_01",
+        "x": -0.0473478847791901,
+        "y": -1.4463880013668793,
+        "yaw_deg": -8.030771367573507
+      },
+      {
+        "asset": "shoe_01",
+        "x": -0.07530685142144791,
+        "y": -0.7490786836209309,
+        "yaw_deg": 3.7519893389105086
+      },
+      {
+        "asset": "chair_01",
+        "x": -0.07970451968160082,
+        "y": -0.02490807259387833,
+        "yaw_deg": 4.81613761613125
+      }
+    ],
+    "final": [
+      -1.8070646524429321,
+      -0.6556808352470398,
+      0.010013976134359837
+    ],
+    "duration_s": 58.0999999999979,
+    "braking_drift_m": 0.0005631983927046197,
+    "max_contact_force_n": 0.0,
+    "contact_body_count": 6,
+    "localization": "simulator ground truth",
+    "depth_ground_threshold_m": 0.012,
+    "depth_memory_seconds": 3,
+    "planner": "A-star on accumulated sensor points, 2.5 cm grid, 17.5 cm footprint inflation"
+  },
+  {
+    "case": "08_passage",
+    "seed": 2026092608,
+    "expected_outcome": "goal_reached",
+    "passed": false,
+    "reason": "blocked_no_progress",
+    "goal": [
+      -0.28,
+      0.85
+    ],
+    "obstacles": [
+      {
+        "asset": "chair_01",
+        "x": -0.5197064329443821,
+        "y": -2.172543060205048,
+        "yaw_deg": 6.053262294329631
+      },
+      {
+        "asset": "shoe_01",
+        "x": -0.4996030258455328,
+        "y": -1.4956003488187388,
+        "yaw_deg": 1.110722441294012
+      },
+      {
+        "asset": "book_01",
+        "x": -0.5321901978131847,
+        "y": -0.698694343322818,
+        "yaw_deg": 7.160417562280198
+      },
+      {
+        "asset": "dumbbell_01",
+        "x": -0.5306397999428558,
+        "y": -0.04027336222906014,
+        "yaw_deg": -6.579627559916553
+      }
+    ],
+    "final": [
+      0.10294508188962936,
+      -3.513712167739868,
+      0.010013509541749954
+    ],
+    "duration_s": 18.300000000000157,
+    "braking_drift_m": 0.0006316197751468057,
+    "max_contact_force_n": 0.0,
+    "contact_body_count": 6,
+    "localization": "simulator ground truth",
+    "depth_ground_threshold_m": 0.012,
+    "depth_memory_seconds": 3,
+    "planner": "A-star on accumulated sensor points, 2.5 cm grid, 17.5 cm footprint inflation"
+  },
+  {
+    "case": "09_blocked",
+    "seed": 2026092609,
+    "expected_outcome": "safe_stop",
+    "passed": true,
+    "reason": "blocked_no_progress",
+    "goal": [
+      -0.28,
+      0.85
+    ],
+    "obstacles": [
+      {
+        "asset": "chair_01",
+        "x": -0.04103012987521958,
+        "y": -2.20483511710091,
+        "yaw_deg": 3.4253983099623007
+      },
+      {
+        "asset": "book_01",
+        "x": -0.0766251336550356,
+        "y": -1.4173060702435427,
+        "yaw_deg": -1.1025509493615733
+      },
+      {
+        "asset": "shoe_01",
+        "x": -0.06625071421384168,
+        "y": -0.7074625937515459,
+        "yaw_deg": 2.7089407303694824
+      },
+      {
+        "asset": "dumbbell_01",
+        "x": -0.04795115050046577,
+        "y": -0.03960350667645686,
+        "yaw_deg": -4.249711751868319
+      },
+      {
+        "asset": "full_width_control_barrier",
+        "x": -0.285,
+        "y": -1.8,
+        "dimensions_m": [
+          1.05,
+          0.12,
+          0.35
+        ]
+      }
+    ],
+    "final": [
+      0.11953220516443253,
+      -3.5065934658050537,
+      0.010013207793235779
+    ],
+    "duration_s": 19.316666666666766,
+    "braking_drift_m": 0.0006430637591940719,
+    "max_contact_force_n": 0.0,
+    "contact_body_count": 6,
+    "localization": "simulator ground truth",
+    "depth_ground_threshold_m": 0.012,
+    "depth_memory_seconds": 3,
+    "planner": "A-star on accumulated sensor points, 2.5 cm grid, 17.5 cm footprint inflation"
+  },
+  {
+    "case": "10_blocked",
+    "seed": 2026092610,
+    "expected_outcome": "safe_stop",
+    "passed": true,
+    "reason": "blocked_no_progress",
+    "goal": [
+      -0.28,
+      0.85
+    ],
+    "obstacles": [
+      {
+        "asset": "shoe_01",
+        "x": -0.5174705026197186,
+        "y": -2.1935919657822005,
+        "yaw_deg": 6.594433286072288
+      },
+      {
+        "asset": "book_01",
+        "x": -0.5256417957149994,
+        "y": -1.4305360805741816,
+        "yaw_deg": -6.934402977821799
+      },
+      {
+        "asset": "chair_01",
+        "x": -0.5289365657002272,
+        "y": -0.6993434857881954,
+        "yaw_deg": 3.2892159680549415
+      },
+      {
+        "asset": "dumbbell_01",
+        "x": -0.5183574624324989,
+        "y": 0.03398999854991579,
+        "yaw_deg": -4.966134651455356
+      },
+      {
+        "asset": "full_width_control_barrier",
+        "x": -0.285,
+        "y": -1.8,
+        "dimensions_m": [
+          1.05,
+          0.12,
+          0.35
+        ]
+      }
+    ],
+    "final": [
+      0.1005178913474083,
+      -3.5153510570526123,
+      0.010013572871685028
+    ],
+    "duration_s": 18.300000000000157,
+    "braking_drift_m": 0.0006323250298410347,
+    "max_contact_force_n": 0.0,
+    "contact_body_count": 6,
+    "localization": "simulator ground truth",
+    "depth_ground_threshold_m": 0.012,
+    "depth_memory_seconds": 3,
+    "planner": "A-star on accumulated sensor points, 2.5 cm grid, 17.5 cm footprint inflation"
+  }
+]
